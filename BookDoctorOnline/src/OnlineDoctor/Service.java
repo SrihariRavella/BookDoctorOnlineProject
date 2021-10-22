@@ -211,7 +211,7 @@ public class Service {
 				break;
 			case "4":HospitalManager.command(new TotalDoctors(hospital), "totalDoctors");
 				break;
-			case "5":HospitalManager.command(new TotalDoctors(hospital), "totalPatients");
+			case "5":HospitalManager.command(new TotalPatients(hospital), "totalPatients");
 				break;
 			case "6":header();
 					body();
